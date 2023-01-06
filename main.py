@@ -73,7 +73,7 @@ async def kick(ctx, user: discord.Member, *, reason="Причина не ука�
         await user.send(embed=kick)
 
 @bot.command(name='wiki')
-async def wiki(ctx, arg=None):
+async def wiki(ctx, *, arg=None):
     if arg == None:
         none = discord.Embed(title= "Ошибка!", description="***wiki [запрос]**")
         await ctx.send(embed= none)
