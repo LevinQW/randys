@@ -209,4 +209,4 @@ async def embed(ctx, *, arg):
 
 
 
-bot.run('MTA0NTc1NTYxODg2NDEzNjI1NQ.GDzBtS.4sY78lBuLRO_pH7DLZNZ-phGf-7ueGHb9CS2OQ')        #974478826566
+bot.run('')        #974478826566
